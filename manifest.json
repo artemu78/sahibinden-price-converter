@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Sahibinden Price Converter",
+  "version": "1.1",
+  "description": "Converts Turkish Lira prices on sahibinden.com to USD.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["*://*.sahibinden.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.sahibinden.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
