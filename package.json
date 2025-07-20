@@ -1,0 +1,22 @@
+{
+  "name": "sahibinden-price-converter",
+  "version": "1.0.5",
+  "description": "This Chrome Extension converts Turkish Lira (TL) prices on sahibinden.com to another currency using the current exchange rate.",
+  "main": "archive.js",
+  "scripts": {
+    "archive": "node archive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemu78/sahibinden-price-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemu78/sahibinden-price-converter/issues"
+  },
+  "homepage": "https://github.com/artemu78/sahibinden-price-converter#readme",
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}
